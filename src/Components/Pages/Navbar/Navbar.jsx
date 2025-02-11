@@ -1,5 +1,7 @@
 import Location from "./Location/Location"
 import Logo from "./Logo/Logo"
+import MyAccount from "./MyAccount/MyAccount"
+import SearchBar from "./SearchBar/SearchBar"
 import TimeBar from "./TimeBar/TimeBar"
 
 const Navbar = () => {
@@ -15,7 +17,14 @@ const Navbar = () => {
 
                     <Location />
 
-                    <TimeBar />
+                    <div className="flex justify-between items-center w-full ">
+                        <TimeBar />
+
+                        <SearchBar />
+
+                        <MyAccount />
+
+                    </div>
 
                 </div>
 
