@@ -1,6 +1,8 @@
+import Cart from "./Cart/Cart"
 import Location from "./Location/Location"
 import Logo from "./Logo/Logo"
 import MyAccount from "./MyAccount/MyAccount"
+import Notification from "./Notification/Notification"
 import SearchBar from "./SearchBar/SearchBar"
 import TimeBar from "./TimeBar/TimeBar"
 
@@ -23,6 +25,10 @@ const Navbar = () => {
                         <SearchBar />
 
                         <MyAccount />
+
+                        <Notification />
+
+                        <Cart />
 
                     </div>
 
